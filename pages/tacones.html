@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocasines Qosqo - Mocasines</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/860/860895.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav-links" id="nav-links">
+            <a href="zapatos.html">ZAPATOS</a>
+            <a href="mocasines.html">MOCASINES</a>
+            <a href="zapatillas.html">ZAPATILLAS</a>
+            <a href="tacones.html">TACONES</a>
+            <a href="../index.html" class="seguimiento">HOME</a>
+        </nav>
+        <div class="logo">
+            <img src="../img/logo.webp" alt="logo">
+        </div>
+        <div class="icons">
+            <a href="#"><span class="material-icons">search</span> BUSCAR</a>
+            <a href="../IniciarSeccion/iniciar.html"><span class="material-icons">person</span> ACCEDER</a>
+            
+            <div class="cart-icon">
+                <button id="toggleCart"><a href="#"><span class="material-icons">shopping_cart</span> CARRITO</a></button>
+            </div>
+        </div>
+        <button id="menu-toggle" class="menu-toggle">☰</button> <!-- Botón para el menú -->
+    </header>
+
+    <main>
+        <div class="slider">
+            <img src="https://cdn.palbincdn.com/users/17354/images/Plantilla-Carrusel-Banner-Tacones-de-Calle-1920-x-800-px-1709222593.jpg"
+                alt="principal">
+        </div>
+
+        <div class="container">
+            <!-- Filtros -->
+            <div class="filters">
+                <h2>Filtros</h2>
+                
+                <div class="filter">
+                    <h3>Tallas <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="12" rx="2" ry="2"/><path d="M16 3v4M8 3v4M3 12h18"/></svg>
+                    </h3>
+                    <label><input type="checkbox"> 36</label>
+                    <label><input type="checkbox"> 37</label>
+                    <label><input type="checkbox"> 38</label>
+                    <label><input type="checkbox"> 39</label>
+                </div>
+                
+                <div class="filter">
+                    <h3>Color <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14h.01M12 10h.01M16 16h.01"/></svg>
+                    </h3>
+                    <label><input type="checkbox"> Negro</label>
+                    <label><input type="checkbox"> Blanco</label>
+                    <label><input type="checkbox"> Crema</label>
+                </div>
+            
+                <div class="filter">
+                    <h3>Marca <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><path d="M8 16l4-4-4-4M16 16l-4-4 4-4"/></svg>
+                    </h3>
+                    <label><input type="checkbox"> Boston</label>
+                    <label><input type="checkbox"> Bata</label>
+                    <label><input type="checkbox"> Palmer</label>
+                </div>
+            
+                <div class="filter">
+                    <h3>Precio <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1l9 9-9 13-9-13L12 1z"/><path d="M12 8v6M9 12h6"/></svg>
+                    </h3>
+                    <label><input type="checkbox"> $90 - $100</label>
+                    <label><input type="checkbox"> $100 - $150</label>
+                    <label><input type="checkbox"> Más de $150</label>
+                </div>
+            </div>
+            
+
+            <!-- Productos -->
+            <section class="products">
+                <div class="product">
+                    <img src="https://passarelape.vtexassets.com/arquivos/ids/1264890/Zapatos-Vizzano-Mujeres-1290-700-13488--Nude---37_0.jpg?v=637835647788000000" 
+                    alt="Mocasines 1">
+                    <h4 class="product-title">Vizzano Mujeres</h4>
+                    <p class="product-price">Precio: S/ 129.00</p>
+                    <button class="add-to-cart">Agregar al carrito</button>
+                </div>
+                <div class="product">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkHcfvjvnhDgbBjSa66XGJMUvF0pBq-e29HQ&s"
+                        alt="Mocasines 2">
+                    <h4 class="product-title">Loken Step Mujer Azul</h4>
+                    <p class="product-price">Precio: S/ 100.00</p>
+                    <button class="add-to-cart">Agregar al carrito</button>
+                </div>
+                <div class="product">
+                    <img src="https://image.made-in-china.com/202f0j00kRHqPrulHAzs/Wholesale-Brand-Outlet-Stocklots-Ladies-Shoes-High-Heels-Ready-to-Ship.webp"
+                        alt="Mocasines 3">
+                    <h4 class="product-title">Outlet Stocklots</h4>
+                    <p class="product-price">Precio: S/ 89.00</p>
+                    <button class="add-to-cart">Agregar al carrito</button>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section logo-social">
+                <img src="../img/logo.webp" alt="logo" class="footer-logo">
+                <div class="social-icons">
+                    <a href="#"><img width="25" height="25" src="https://img.icons8.com/ios/50/instagram-new--v1.png"
+                            alt="instagram-new--v1" /></a>
+                    <a href="#"><img width="25" height="25" src="https://img.icons8.com/ios/50/facebook-new.png"
+                            alt="facebook-new" /></a>
+                    <a href="#"><img width="25" height="25" src="https://img.icons8.com/ios/50/tiktok--v1.png"
+                            alt="tiktok--v1" /></a>
+                </div>
+                <hr>
+                <p>Av Prolongación Arica 2248<br>Cercado de Lima<br>(01) 619-3637<br>Qosqo.palacio@alirmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Qosqo</h3>
+                <ul>
+                    <li><a href="#">¿Quiénes Somos?</a></li>
+                    <li><a href="#">Venta por catálogo</a></li>
+                    <li><a href="#">Ventas por mayor</a></li>
+                    <li><a href="#">Facturas electrónicas</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Te ayudamos</h3>
+                <ul>
+                    <li><a href="#">Nuestras tiendas</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Libro de reclamaciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Entregas</h3>
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Política de datos</a></li>
+                    <li><a href="#">Política de cookies</a></li>
+                    <li><a href="#">Cambios y devoluciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Medios de pago</h3>
+                <div class="payment-methods">
+                    <img src="../img/metodospago.png" alt="Medios de Pago" class="payment-logo">
+                    <img src="../img/metodospago2.webp" alt="Medios de Pago" class="payment-logo">
+                </div>
+                <a href="#"><img src="../img/libroreclamaciones.png" alt="Libro de reclamaciones"
+                        class="reclamaciones-icon"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 - Qosqo Perú - Derechos reservados</p>
+        </div>
+    </footer>
+    <div id="cart-sidebar" class="cart-sidebar">
+        <button id="cart-close-button" class="cart-close-button">✖</button>
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: $0.00</p>
+        <button id="checkout-button">Pagar</button>
+      </div>
+      <div id="overlay" class="overlay"></div>
+
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
